@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.13]
+        python-version: [3.13.0-beta.2]
     ## Define a sequence of steps to be executed
     steps:
       ## Use the public `checkout` action  in version v2  
